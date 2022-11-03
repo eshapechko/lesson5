@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(136, 224, 220);
+}
+header,
+footer {
+  background-color: rgb(6, 128, 87);
+  padding: 50px 0;
+}
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+main {
+  min-height: 110vh;
+  background-color: chartreuse;
+  padding-top: 150px;
+}
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+.relative-wrapper {
+  position: relative;
+}
+.position {
+  background-color: blue;
+  color: aliceblue;
+  position: relative;
+  /* top, right, bottom, left, z-index */
+  top: 30px;
+  left: 80px;
+  /* z-index: -3; */
+  padding: 10px;
+}
+.absolute {
+  background-color: brown;
+  padding: 10px;
+  position: absolute;
+  top: 200px;
+  left: 200px;
+  /* right: 30px; */
+}
+.fixed {
+  background-color: blueviolet;
+  padding: 10px;
+  position: fixed;
+  top: 50%;
+  right: 0;
+  /* height: 150px;
+    margin-top: -75px; */
+  transform: translateY(-50%);
+}
+
+.popup {
+  width: 400px;
+  padding: 20px;
+  background-color: yellow;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 5px 5px 10px #000;
+}
+.close {
+  position: absolute;
+  background-color: red;
+  color: #fff;
+  padding: 6px;
+  top: 4px;
+  right: 4px;
+  border: none;
+}

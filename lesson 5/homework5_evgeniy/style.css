@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #7cdaef;
+  font-family: "Play", sans-serif;
+}
+.container {
+  max-width: 900px;
+  margin: auto;
+  position: relative;
+  margin-top: 104px;
+}
+.top-right {
+  position: absolute;
+  top: -59px;
+  right: -156px;
+  z-index: 1;
+}
+.middle-left {
+  position: absolute;
+  top: 179px;
+  left: -205px;
+}
+.middle-right {
+  position: absolute;
+  top: 450px;
+  right: -206px;
+}
+.blue {
+  background-color: rgba(14, 73, 126, 0.7);
+  padding: 99px 79px 177px 78px;
+  color: #fff;
+  position: relative;
+}
+h1 {
+  font-size: 40px;
+  margin-bottom: 24px;
+}
+h2 {
+  font-size: 32px;
+  margin-bottom: 51px;
+}
+
+p {
+  max-width: 743px;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 26px;
+}
+.bird {
+  margin-right: 10px;
+}
+
+.grass {
+  position: fixed;
+  width: 100%;
+  height: 132px;
+  background-image: url(./images/grass.png);
+  left: 0;
+  bottom: 0;
+  z-index: 10;
+}
